@@ -1,0 +1,37 @@
+
+#loginPage {
+    background-image: url("../img/bg.png");
+    overflow: hidden;
+    background-size: cover;
+}
+ 
+#loginPage .card {
+    background-color: transparent;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+ 
+#loginPage #image img {
+    max-width: none;
+    width: 1000px;
+    animation: shoes-animation 2s infinite;
+    overflow: hidden;
+}
+ 
+@keyframes shoes-animation {
+    0% {
+        transform: translateY(0px);
+    }
+ 
+    70% {
+        transform: translateY(15px);
+    }
+ 
+    100% {
+        transform: translateY(0px);
+    }
+}
+ 
+#loginPage .contentLogin h6, .contentLogin h1 {
+    color: #fff;
+    text-align: center;
+}

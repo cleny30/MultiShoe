@@ -1,0 +1,44 @@
+#signUpPage {
+    background-image: url("../img/bg_register.png");
+    overflow: hidden;
+    background-size: cover;
+}
+ 
+#signUpPage .card {
+    background-color: transparent;
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 500px;
+}
+ 
+#signUpPage #image img {
+    width: 800px;
+    animation: shoes-animation 2s infinite;
+    overflow: hidden;
+}
+ 
+#signUpPage #formGroup {
+    gap: 100px;
+}
+ 
+@media (max-width: 1200px) {
+    #signUpPage #image img {
+        display: none;
+    }
+ 
+    #signUpPage #formGroup {
+        gap: 0px;
+    }
+ 
+}
+ 
+@media (max-width: 450px) {
+    #registerPage .card {
+        width: 95%;
+        margin: auto;
+    }
+ 
+    #registerPage * {
+        font-size: 17px;
+ 
+    }
+}
